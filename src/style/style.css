@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.trainer {
+    margin-left: 50%;
+}
+
+.header-card {
+    height: 140px;
+    width: 100%;
+    background-color: rgb(117, 10, 217);
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}

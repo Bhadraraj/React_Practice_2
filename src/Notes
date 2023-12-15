@@ -1,0 +1,10 @@
+// Router
+
+// Step 1: npm i react - router - dom;   npm i react - router - dom--save;
+// step 2: import path from 'path'
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// step 3: <Router>
+//     <Routes>
+//     <Route path='/' element = {< Home />}>
+//     </Routes
+//    </Router>

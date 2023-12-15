@@ -1,0 +1,115 @@
+* {
+
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 0 10px;
+    /* This will set left and right margins to 10 pixels */
+}
+
+.mainCard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+
+    height: 270px;
+    width: 150px;
+    border: none;
+    margin: 0 35px !important;
+    background-color: rgb(241, 241, 240);
+
+}
+
+.img {
+    margin: 0 auto;
+}
+
+.img img {
+    height: 160px;
+    width: 160px;
+
+
+
+}
+
+h4 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.prodName {
+    color: rgb(112, 109, 109);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.lrPrice {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.off {
+    height: fit-content;
+    width: fit-content;
+    padding: 1px 7px;
+    background-color: #c7ffc7;
+    border-radius: 5px;
+
+    color: #05703e;
+}
+
+.brand {
+    color: rgb(179, 179, 179);
+    font-size: 12px;
+}
+
+.brandName {
+    color: #805cff;
+    font-size: 12px;
+}
+
+.cardDetail {
+    border-radius: 0 0 5px 5px;
+    padding: 8px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 5px rgb(222, 222, 222);
+}
+
+.cardDetail:hover .prodName {
+    color: #805cff;
+
+
+}
+
+.detailLeft {
+    font-size: 12px;
+}
+
+.detailLeft strike {
+    font-size: 10px;
+}
+
+.detailRight {
+    font-size: 10px;
+}
+
+.ratings {
+    margin-top: 3px;
+    font-size: 10px;
+}
+
+
+.slick-prev:before {
+    color: red;
+}
+
+/* Next (right) arrow */
+.slick-next:before {
+    color: red;
+}
